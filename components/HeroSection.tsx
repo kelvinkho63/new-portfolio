@@ -6,13 +6,13 @@ import { Link } from "react-scroll/modules"
 const HeroSection = () => {
   return (
     <section id="home">
-        <div className='flex flex-col text-center items-center justify-center'>
+        <div className='flex flex-col text-center items-center justify-center my-10 py-16'>
             <div>
                 <Image className="rounded-full shadow-2xl" src="/photo.jpg" alt="" width={300} height={300}/>
             </div>
             <div>
                 <h1 className="font-bold text-4xl mt-6">Hi, i&#39;m Kelvin</h1>
-                <p className="font-semibold text-blue-600">
+                <p className="text-lg mt-4 mb-6">
                     I&#39;m a {" "}
                     <span className="font-semibold text-blue-600">
                         Software Engineer {" "}
