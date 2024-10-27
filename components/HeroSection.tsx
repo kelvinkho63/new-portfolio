@@ -11,9 +11,9 @@ const HeroSection = () => {
                 <Image className="rounded-full shadow-2xl" src="/photo.jpg" alt="" width={300} height={300}/>
             </div>
             <div>
-                <h1 className="font-bold text-4xl mt-6">Hi, i'm Kelvin</h1>
+                <h1 className="font-bold text-4xl mt-6">Hi, i&#39;m Kelvin</h1>
                 <p className="font-semibold text-blue-600">
-                    I'm a {" "}
+                    I&#39;m a {" "}
                     <span className="font-semibold text-blue-600">
                         Software Engineer {" "}
                     </span> 
